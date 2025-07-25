@@ -247,3 +247,38 @@ nav ul li a {
   background-color: rgb(233, 90, 8);
   border: none;
 }
+
+/* footer  part */
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.footer_part {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.footer_img {
+  max-width: 359px;
+}
+.foterleft_nav ul li {
+  list-style: none;
+}
+.foterleft_nav ul li a {
+  text-decoration: none;
+  color: rgb(107, 114, 128);
+  line-height: 52px;
+}
+.foterright_nav ul li {
+  list-style: none;
+}
+.foterright_nav ul li a {
+  text-decoration: none;
+  color: rgb(107, 114, 128);
+  line-height: 52px;
+}
+.social_part img {
+  margin: 0 10px;
+}
