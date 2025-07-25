@@ -218,3 +218,32 @@ nav ul li a {
   color: white;
 }
 /* last join part */
+.last_part {
+  max-width: 1440px;
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  height: 533px;
+  margin: 0px auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.form label {
+  font-size: 3.12rem;
+  color: white;
+  display: block;
+  text-align: center;
+}
+.colorful {
+  text-align: center;
+  padding-top: 200px;
+}
+#email {
+  padding: 10px 160px;
+  border: none;
+  margin-top: 10px;
+}
+#submit {
+  padding: 10px 30px;
+  background-color: rgb(233, 90, 8);
+  border: none;
+}
