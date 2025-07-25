@@ -154,3 +154,67 @@ nav ul li a {
   left: 355px;
   width: 286px;
 }
+
+/* deal part */
+.deal_part {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 90px;
+}
+.deal_part h2 {
+  font-size: 3.13rem;
+  margin-bottom: 25px;
+}
+.deal_part p {
+  max-width: 888px;
+  margin: 0 auto;
+  font-size: 1.37rem;
+}
+.cards {
+  display: flex;
+  gap: 25px;
+}
+.left_card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.right_card {
+  position: relative;
+}
+.right_card img {
+  border-radius: 8px;
+  max-width: 753px;
+}
+.small_card {
+  position: relative;
+}
+.small_card img {
+  border-radius: 8px;
+}
+.text_card {
+  position: absolute;
+  top: 79px;
+  left: 90px;
+  text-align: center;
+}
+.text_right {
+  top: 174px;
+  left: 194px;
+}
+#text {
+  font-size: 2.5rem;
+}
+#text_small {
+  font-size: 1.75rem;
+}
+
+.text_card h3 {
+  color: white;
+  font-size: 1.25rem;
+}
+.text_card a {
+  color: white;
+}
+/* last join part */
