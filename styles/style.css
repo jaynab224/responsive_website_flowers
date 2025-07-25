@@ -57,3 +57,71 @@ nav ul li a {
 }
 .nav_secnd_color {
   color: rgb(0, 0, 0);
+}
+
+/* 2nd part  */
+.sec_part{
+  display: flex;
+  margin-top: 176px;
+  align-items: end;
+  justify-content: space-between;
+}
+.seco_part h2 {
+  font-size: 4rem;
+  color: rgb(233, 90, 8);
+}
+
+.seco_part h2 span {
+  color: rgb(0, 0, 0);
+}
+.seco_part p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.3rem;
+}
+/* 3rd part our plants   */
+.plants_section {
+  margin-top: 75px;
+}
+.plants_section h3 {
+  text-align: center;
+  font-size: 3.12rem;
+  margin-bottom: 15px;
+}
+.font_color {
+  color: rgb(233, 90, 8);
+}
+.plants_section p {
+  max-width: 888px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.37rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.plants_img_section {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.plants_img {
+  text-align: center;
+}
+.plants_img h4 {
+  font-size: 1.37rem;
+  font-weight: 500;
+  color: rgb(17, 17, 17);
+  margin: 10px 0;
+}
+.plants_img span {
+  font-size: 1.37rem;
+  font-weight: 700;
+  color: rgb(17, 17, 17);
+  display: block;
+}
+.plants_img button {
+  color: white;
+  background-color: rgb(233, 90, 8);
+  padding: 12px 88px;
+  margin: 30px 0;
+  border: none;
+  max-width: 270px;
+}
