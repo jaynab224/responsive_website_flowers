@@ -1,0 +1,59 @@
+/* font   */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* font */
+.font_part {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* body  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #f5f7fc;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* navbar part  */
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 20px;
+}
+.logo_img img {
+  max-width: 135px;
+  height: 71px;
+}
+nav ul {
+  display: flex;
+  gap: 48px;
+  margin-top: 27px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(137, 135, 161);
+}
+.nav_color {
+  color: rgb(37, 36, 50);
+  font-weight: 700;
+}
+.nav_secnd_color {
+  color: rgb(0, 0, 0);
